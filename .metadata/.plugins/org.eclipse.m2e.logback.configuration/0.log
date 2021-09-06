@@ -1,0 +1,116 @@
+2021-08-25 21:48:53,867 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-08-26 20:51:55,196 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-08-26 21:05:23,332 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.corantioquia.autogestion:pom:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\pom.xml.
+2021-08-26 21:05:31,196 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\pom.xml.
+2021-08-26 21:05:31,200 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.corantioquia.autogestion:autogestion:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\autogestion\pom.xml.
+2021-08-26 21:05:37,323 [Worker-16: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.corantioquia.autogestion:utils:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-08-26 21:05:39,825 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:39,825 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:05:39,826 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:05:39,831 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:39,831 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\test\resources
+2021-08-26 21:05:41,175 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:41,175 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:05:41,175 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:05:41,181 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:41,183 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\test\resources
+2021-08-26 21:05:42,032 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.corantioquia.autogestion:autogestion:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\autogestion\pom.xml.
+2021-08-26 21:05:42,455 [Worker-19: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Consolidated: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT with classifier  to /Consolidated/target/classes
+2021-08-26 21:05:43,226 [Worker-19: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Consolidated: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT with classifier  to /Consolidated/target/classes
+2021-08-26 21:05:46,365 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:46,375 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-26 21:05:46,409 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:05:46,413 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:46,414 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\autogestion\src\test\resources
+2021-08-26 21:05:46,560 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Consolidated: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT with classifier  to /Consolidated/target/classes
+2021-08-26 21:05:46,644 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.corantioquia.autogestion:utils:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-08-26 21:05:47,456 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\utils\pom.xml.
+2021-08-26 21:05:48,510 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\pom.xml.
+2021-08-26 21:05:48,808 [Worker-19: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/utils: com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT with classifier  to /utils/target/classes
+2021-08-26 21:05:49,311 [Worker-19: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.corantioquia.autogestion:autogestion:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\autogestion\pom.xml.
+2021-08-26 21:05:49,454 [Worker-19: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Consolidated: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT with classifier  to /Consolidated/target/classes
+2021-08-26 21:05:49,461 [Worker-19: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/utils: com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT with classifier  to /utils/target/classes
+2021-08-26 21:05:52,933 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:52,933 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:05:52,934 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:05:52,938 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:52,940 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:05:54,115 [Worker-14: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.corantioquia.autogestion:autogestion:0.0.1-SNAPSHOT @ C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\autogestion\pom.xml.
+2021-08-26 21:05:54,779 [Worker-14: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Consolidated: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT with classifier  to /Consolidated/target/classes
+2021-08-26 21:05:54,788 [Worker-14: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/utils: com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT with classifier  to /utils/target/classes
+2021-08-26 21:05:55,285 [Worker-14: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/utils: com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT with classifier  to /utils/target/classes
+2021-08-26 21:05:59,094 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:59,095 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:05:59,095 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:05:59,099 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:05:59,099 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\test\resources
+2021-08-26 21:06:01,005 [Worker-3: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Consolidated: com.corantioquia.autogestion:consolidated:0.0.1-SNAPSHOT with classifier  to /Consolidated/target/classes
+2021-08-26 21:06:01,014 [Worker-3: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/utils: com.corantioquia.autogestion:utils:0.0.1-SNAPSHOT with classifier  to /utils/target/classes
+2021-08-26 21:06:01,076 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:06:01,083 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-26 21:06:01,093 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:06:01,106 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:06:01,108 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\autogestion\src\test\resources
+2021-08-26 21:06:01,416 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:06:01,417 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:06:01,418 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:06:01,422 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:06:01,423 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:06:02,694 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:06:02,694 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:06:02,694 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:06:02,701 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:06:02,701 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\test\resources
+2021-08-26 21:20:42,598 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:20:42,599 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:20:42,602 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\main\resources
+2021-08-26 21:20:42,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:20:42,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\Consolidated\src\test\resources
+2021-08-26 21:20:42,654 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:20:42,654 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:20:42,655 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:20:42,657 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:20:42,657 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\daniela bonilla\Desktop\java_v2.0_autogestion\java_v2.0_autogestion\autogestion\src\test\resources
+2021-08-26 21:20:42,669 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:20:42,669 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:20:42,670 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-26 21:20:42,673 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-26 21:20:42,673 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-05 18:12:23,544 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-05 19:44:44,137 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
